@@ -1,0 +1,70 @@
+/* Make background cover entire page */
+html, body {
+  background-color: #f0e6ff;
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main heading */
+.h1 {
+  text-align: center;
+  background: white;
+  color: #6a0dad;
+  font-size: 40px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px 5px rgba(0, 0, 0, 0.5);
+  width: fit-content;
+}
+
+/* Inputs and buttons styling */
+input[type="text"], input[type="time"] {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #6a0dad;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px;
+  background: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #520b8e;
+}
+
+/* Task list styling */
+.task-list {
+  margin: 30px auto;
+  padding: 0;
+  max-width: 600px;
+  list-style-type: none;
+}
+
+.task-list li {
+  background: white;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  font-size: 18px;
+}
+
+.task-list span {
+  color: #6a0dad;
+  font-weight: bold;
+}
